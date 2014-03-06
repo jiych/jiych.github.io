@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post 
 title: "solve jekyll utf-8 problem under windows"
 description: ""
 category: tips

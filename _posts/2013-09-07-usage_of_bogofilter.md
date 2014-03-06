@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post 
 title: "Usage of bogofilter"
 description: ""
 category: linux

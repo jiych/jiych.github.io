@@ -14,6 +14,7 @@ desc: Thinkings & works
 custom:
     category:
         linux: linux 
+        ruby: ruby 
         tips: tips 
         life: life
         
@@ -27,6 +28,9 @@ custom:
       - name: life 
         title: life 
 
+      - name: ruby 
+        title: ruby 
+
 scrollingLoadCount: 0
 
 meta:
@@ -36,7 +40,7 @@ meta:
         disqus: jiych 			                # Disqus缩略标识
         gcse: 002980071478006019237:bcmd-n00ura     # Google自定义搜索标识ID
         github: jiych              			    # GitHub账号
-        gravatar: b1b40161ebd87b851d3eb65e870f1213  # Gravatar头像标识
+        gravatar: 0781da482ba53cb4b6eac7e11d19f0f1  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址

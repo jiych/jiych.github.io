@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post 
 title: "Begin of bloging"
 description: ""
 category: life
