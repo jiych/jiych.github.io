@@ -19,7 +19,8 @@ tags: []
 `ssh-add ~/id_rsa_newaccount`
 
 我在操作这一步时候失败了，原因为需要启动ssh-agent，[见这里](http://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent)
-`eval `ssh-agent -s``
+
+`eval ssh-agent -s`
 
 `ssh-add ~/id_rsa_newaccount`
 

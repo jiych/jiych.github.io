@@ -43,7 +43,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>我要抱着向日葵，一点一点，开始歌唱 ~</p>
+		<p>a C programmer, studing RoR right now</p>
 	</div>
 	
 	<div class="block block-license">
