@@ -39,7 +39,8 @@ meta:
         email: jiych.guru@gmail.com
         disqus: jiych 			                # Disqus缩略标识
         gcse: 003846770488047756774:-bbnpqgyp2y     # Google自定义搜索标识ID
-        github: jiych              			    # GitHub账号
+        #dont fork me!!
+        #github: jiych              			    # GitHub账号
         gravatar: 0781da482ba53cb4b6eac7e11d19f0f1  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
