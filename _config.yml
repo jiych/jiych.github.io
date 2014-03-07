@@ -7,7 +7,7 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: Joy's blog | Thinkings & Works
+name: Joy | Thinkings & Works
 host: jiych.github.io
 desc: Thinkings & Works
 
