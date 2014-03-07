@@ -14,6 +14,7 @@ desc: Thinkings & Works
 custom:
     category:
         linux: linux 
+        C: C
         ruby: ruby 
         tips: tips 
         life: life
@@ -30,6 +31,9 @@ custom:
 
       - name: ruby 
         title: ruby 
+			
+      - name: C 
+        title: C
 
     scrollingLoadCount: 0
 
