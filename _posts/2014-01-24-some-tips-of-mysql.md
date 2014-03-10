@@ -9,6 +9,7 @@ tags: []
 在bash中检查mysql是否连接成功：
 
 方法1:
+
 > mysql -uroot database </dev/null
 >
 > echo $?
@@ -16,6 +17,7 @@ tags: []
 or
 
 方法2:
+
 > mysql -uroot database -e "exit"
 >
 > echo $?
