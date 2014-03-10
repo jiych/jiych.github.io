@@ -17,6 +17,7 @@ After invoked `jekyll server`,I got errors:
 and so on.
 
 After google,I found the problem was that my some post files including chinese words;and some people gave [their solutions](http://blog.jsfor.com/skill/2013/09/07/jekyll-local-structures-notes/):
+
 >1.uninstall jekyll 1.4.3
 >
 >2.install jekyll 1.3.0 and change some code like this:
