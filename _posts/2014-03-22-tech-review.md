@@ -23,31 +23,29 @@ Z公司面试比较杂乱，部门与部门之间似乎没有资源共享，所�
 
 T公司在我看来是有些装的成分的，也难怪，毕竟号称自己是外资。T公司同样会先bs你，bs题里有些比较有意思的。如猜猜下面这个函数的作用：
 
-`
-//已知pcs中为lower-case ascii
-int unnamed(const char *pcs)
-{
-	int len = strlen(pcs);
-	int i = 0;
-	unsigned checker = 0;
 
-	while(i < len){
-		unsigned val = pcs[i] - 'a';
-		if((checker& (1<<val)) > 0)
-			return TRUE;
-		checker |= (1<<val);
-		i++;
-	}
+  //已知pcs中为lower-case ascii
+  int unnamed(const char *pcs)
+  {
+  	int len = strlen(pcs);
+  	int i = 0;
+  	unsigned checker = 0;
+  
+  	while(i < len){
+  		unsigned val = pcs[i] - 'a';
+  		if((checker& (1<<val)) > 0)
+  			return TRUE;
+  		checker |= (1<<val);
+  		i++;
+  	}
+  
+  	return FALSE;
+  }
 
-	return FALSE;
-}
-`
 
 我觉得这个题目实现的挺好的，一开始我也看得有点闷，所以印象很深。又比如：
 
-`
-假定你要把4G的数据放到一个hash表里，在1G内存情况下怎么样实现？
-`
+> 假定你要把4G的数据放到一个hash表里，在1G内存情况下怎么样实现？
 
 我不太清楚这个题目答案应该是什么样，我回答是：在内存中存放key值，指向的value值存放在外部存储器中。也不知道对不对，回头学习下。还有题目是找数字规律，就和我朝zf招工时候的试题类似，我完全不会。
 
@@ -64,7 +62,10 @@ T公司的面试就挺扯的，可能因为我的背景和他们相差太多的�
 总结一下：
 
 1.<b>注意平时的积累，工作中遇到的问题要及时记录，很重要</b>；否则，面试时很容易就哑火；
+
 2.注意自己工作所在项目的整体性，要对全局有把握；
+
 3.多看看内核、驱动，深入学习一个模块；(很多面试官顺嘴就是你看过内核吗？)
+
 4.面试要提前做些准备，要刷些面经，常用算法，计算机理论等。
 
