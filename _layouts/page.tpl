@@ -27,7 +27,10 @@
 	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="http://blog.rexsong.com/wp-content/themes/rexsong/icon_feed.gif" alt="RSS feed" /></a></h2>
 	<nav class="block">
 		<ul>
-		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
+		{% for category in site.custom.categories %}
+{% if category.name != "life" %}
+		<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
+{% endif %}
 		{% endfor %}
 		</ul>
 	</nav>
