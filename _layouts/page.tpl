@@ -46,7 +46,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>a C programmer, studying RoR right now</p>
+		<p>He11o,w0rld!</p>
 	</div>
 	
 	<div class="block block-license">
