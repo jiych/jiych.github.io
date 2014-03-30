@@ -25,16 +25,17 @@ for(;i<sizeof(s)/sizeof(s[0]);i++, p++){
 
 a.c：
 
-<code>
+<pre><code>
 int g1,g2,g3;
 int *g_var[] = {&g1, &g2, &g3};
-</code>
+</code></pre>
 
 b.h：
 
-<code>
+<pre><code>
 extern int **g_var;
-</code>
+</code></pre>
+
 ------------
 
 这个小小的错误编译器不会给出任何告警(包括lint也没有做出来)，却导致了28人天的代价。
