@@ -2,7 +2,7 @@
 layout: post 
 title: "代码植入问题"
 description: ""
-category: linux 
+category: secure
 tags: []
 ---
 
