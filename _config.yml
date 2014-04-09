@@ -18,7 +18,7 @@ custom:
         ruby: ruby 
         tips: tips 
         life: life
-        secure: secure
+        security: security
         
     categories:
       - name: c
@@ -36,8 +36,8 @@ custom:
       - name: ruby 
         title: ruby 
 
-      - name: secure
-        title: secure 
+      - name: security
+        title: security 
 
     scrollingLoadCount: 0
 
