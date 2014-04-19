@@ -1,4 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
 #markdown: kramdown
 #markdown: redcarpet
 pygments: true
