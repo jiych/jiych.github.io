@@ -1,5 +1,5 @@
 #markdown: rdiscount
-#markdown: kramdown
+markdown: kramdown
 #markdown: redcarpet
 pygments: true
 safe: false
