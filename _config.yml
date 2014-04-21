@@ -41,6 +41,9 @@ custom:
 
     scrollingLoadCount: 0
 
+kramdown:
+  input: GFM
+
 meta:
     author:
         name: Joy
