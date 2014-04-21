@@ -1,6 +1,18 @@
 #markdown: rdiscount
-markdown: kramdown
-#markdown: redcarpet
+#markdown: kramdown
+markdown: redcarpet
+safe: true
+lsi: false
+
+redcarpet:
+  extensions:
+    - with_toc_data
+    - hard_wrap
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - autolink
+
 pygments: true
 safe: false
 permalink: /posts/:title.html
@@ -41,8 +53,8 @@ custom:
 
     scrollingLoadCount: 0
 
-kramdown:
-  input: GFM
+#kramdown:
+#  input: GFM
 
 meta:
     author:
