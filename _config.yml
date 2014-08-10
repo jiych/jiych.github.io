@@ -31,6 +31,7 @@ custom:
         tips: tips 
         life: life
         security: security
+        mobileApp: mobileApp
         
     categories:
       - name: c
@@ -50,6 +51,9 @@ custom:
 
       - name: security
         title: security 
+
+      - name: mobileApp 
+        title: mobileApp 
 
     scrollingLoadCount: 0
 
