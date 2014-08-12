@@ -1,3 +1,12 @@
+
+---
+layout: post 
+title: "Trainning: SQLite"
+description: ""
+category: mobileApp
+tags: []
+---
+
 #Trainning: SQLite
 最近做android应用，遇到一些SQLite的问题。看到这遍不错的文章，遂翻译之。也算尝个鲜:)
 
