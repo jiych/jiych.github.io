@@ -2,7 +2,7 @@
 layout: post 
 title: "Set up mutiple github users on one machine"
 description: ""
-category: tips
+category: oths
 tags: []
 ---
 

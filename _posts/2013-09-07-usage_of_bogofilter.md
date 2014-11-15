@@ -2,7 +2,7 @@
 layout: post 
 title: "Usage of bogofilter"
 description: ""
-category: linux
+category: oths
 tags: []
 ---
 

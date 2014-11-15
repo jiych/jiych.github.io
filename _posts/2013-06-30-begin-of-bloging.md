@@ -2,7 +2,7 @@
 layout: post 
 title: "Begin of bloging"
 description: ""
-category: life
+category: oths
 tags: []
 ---
 

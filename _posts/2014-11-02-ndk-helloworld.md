@@ -2,7 +2,7 @@
 layout: post 
 title: "smali方法调用指令"
 description: ""
-category: mobileApp
+category: oths
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 layout: post 
 title: "指针数组与指向指针的指针"
 description: ""
-category: c
+category: oths
 tags: []
 ---
 

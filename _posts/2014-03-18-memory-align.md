@@ -2,7 +2,7 @@
 layout: post 
 title: "结构体字节对齐问题"
 description: ""
-category: c
+category: oths
 tags: []
 ---
 

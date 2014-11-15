@@ -2,7 +2,7 @@
 layout: post 
 title: "daemon process"
 description: ""
-category: linux 
+category: oths 
 tags: []
 ---
 

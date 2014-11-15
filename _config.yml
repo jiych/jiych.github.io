@@ -25,35 +25,15 @@ desc: Thinkings & Works
 
 custom:
     category:
-        linux: linux 
-        c: c 
-        ruby: ruby 
-        tips: tips 
-        life: life
         security: security
-        mobileApp: mobileApp
+        oths: oths
         
     categories:
-      - name: c
-        title: c
-
-      - name: linux 
-        title: linux
-
-      - name: tips 
-        title: tips
-
-      - name: life 
-        title: life 
-
-      - name: ruby 
-        title: ruby 
-
       - name: security
         title: security 
 
-      - name: mobileApp 
-        title: mobileApp 
+      - name: oths 
+        title: oths 
 
     scrollingLoadCount: 0
 

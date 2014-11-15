@@ -2,7 +2,7 @@
 layout: post 
 title: "Trainning: SQLite"
 description: ""
-category: mobileApp
+category: oths
 tags: []
 ---
 

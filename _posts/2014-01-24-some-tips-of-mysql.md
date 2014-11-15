@@ -2,7 +2,7 @@
 layout: post 
 title: "some tips of mysql"
 description: ""
-category: tips
+category: oths
 tags: []
 ---
 

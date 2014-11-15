@@ -2,7 +2,7 @@
 layout: post 
 title: "面试常见问题汇总"
 description: ""
-category: life 
+category: oths 
 tags: []
 ---
 

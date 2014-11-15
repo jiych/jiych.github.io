@@ -2,7 +2,7 @@
 layout: post 
 title: "相对布局中保持按钮平分"
 description: ""
-category: mobileApp
+category: oths
 tags: []
 ---
 
