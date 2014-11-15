@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "smali方法调用指令"
+title: "ndk之helloworld"
 description: ""
 category: android
 tags: []
