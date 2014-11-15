@@ -2,7 +2,7 @@
 layout: post 
 title: "setTag & getTag"
 description: ""
-category: oths
+category: android
 tags: []
 ---
 
