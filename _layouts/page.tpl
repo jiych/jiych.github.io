@@ -26,7 +26,9 @@
 </div>
 
 <aside>
+<!--
 	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="http://blog.rexsong.com/wp-content/themes/rexsong/icon_feed.gif" alt="RSS feed" /></a></h2>
+-->
 	<nav class="block">
 		<ul>
 		{% for category in site.custom.categories %}
